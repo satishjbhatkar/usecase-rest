@@ -16,6 +16,8 @@ public class User {
     private String name;
     @Past
     private Date birthdate;
+	
+	String name ; 
 
     public User() {
     }
