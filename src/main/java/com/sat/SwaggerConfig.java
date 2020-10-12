@@ -12,7 +12,7 @@ public class SwaggerConfig {
 
     @Bean
     public Docket api(){
-System.out.println("hello");
+System.out.println("hello1");
         return new Docket(DocumentationType.SWAGGER_2);
     }
 }
