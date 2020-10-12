@@ -20,6 +20,7 @@ public class UserJPAController {
 
     @Autowired
     UserRepository userRepository;
+    UserRepository userRepository1;
 
     @GetMapping("/jpa/users")
     public List<User> retriveAllUsers(){
