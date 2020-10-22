@@ -15,6 +15,8 @@ import java.util.Date;
 @ControllerAdvice
 @RestController
 public class CustomizedResponseEntityException extends ResponseEntityExceptionHandler {
+	
+	String str="";
 
     @ExceptionHandler(Exception.class)
     public final ResponseEntity<Object> handleAllException(Exception ex, WebRequest request)  {
